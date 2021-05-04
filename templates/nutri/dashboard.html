@@ -1,10 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<h1>nutrition</h1>
-</body>
-</html>
+{% extends 'nutri/main.html' %}
+{% load static %}
+{% block content %}
+
+
+<script src="{% static 'css/main.css' %}"></script>
+    <section id="home">
+        <header>
+
+            <ul id="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#product">Product</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </header>
+         <h1>This Is Home</h1>
+    </section>
+    <section id="about"><h1>This Is About</h1>
+    <img src="{% static 'icon/pregnancy.png' %}">
+    </section>
+    <section id="product"><h1>This Is Product</h1></section>
+    <section id="pricing"><h1>This Is Pricing</h1></section>
+    <section id="contact"><h1>This Is Contact</h1></section>
+
+{% endblock %}
