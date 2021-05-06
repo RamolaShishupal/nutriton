@@ -3,6 +3,19 @@
 {% load static %}
 <head>
     <style>
+.media {
+    display: flex;
+    align-items: flex-start;
+}
+.media .content {
+    flex: 1;
+    padding: 10px;
+}
+.button-area{
+     display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
 
     </style>
@@ -144,36 +157,90 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="container" data-aos="fade-in">
-      <h1>Welcome to Flexor</h1>
-      <h2>We are team of talented designers making websites with Bootstrap</h2>
-      <div class="d-flex align-items-center">
-        <i class="bx bxs-right-arrow-alt get-started-icon"></i>
-        <a href="#about" class="btn-get-started scrollto">Get Started</a>
-      </div>
-    </div>
-  </section><!-- End Hero -->
-
+ 
   <main id="main">
 
     <!-- ======= Why Us Section ======= -->
     <section style="background-color: antiquewhite">
-<div class="card bg-light mb-3" style="max-width: 100%;">
-  <div class="card-header">Header</div>
-  <div class="card-body">
-    <h5 class="card-title">Light card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div>
 
 
 
+
+
+<div class="container">
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about section-bg" style="background-color: antiquewhite;">
+        <div class="media">
+  <div class="image"><img src="{% static 'icon/adolescence.png' %}" alt="MDN logo"></div>
+    <div class="content">This is the content of my media object. Items directly inside the flex container will be aligned to flex-start.</div>
+</div>
+        <div class="card-deck">
+              <div class="card bg-light mb-2" >
+  <div class="card-header">Manifestation</div>
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+   <a style="color: #e3a44c" class="btn btn" href="#" role="button">Animia >></a>
+      <a class="btn btn-primary" href="#" role="button">Family Planing</a>
+<a class="btn btn-primary" href="#" role="button">Dibetic risk</a>
+      <a class="btn btn-primary" href="#" role="button">Diet </a>
+<a class="btn btn-primary" href="#" role="button">Hypertension</a>
+<a class="btn btn-primary" href="#" role="button">Ca cunsumption</a>
+      <a class="btn btn-primary" href="#" role="button">Use of MCP card</a>
+<a class="btn btn-primary" href="#" role="button">At List 4ANC visits</a>
+      <a class="btn btn-primary" href="#" role="button">IFA Cunsumption</a>
+      <a class="btn btn-primary" href="#" role="button">IF SuplimentsA</a>
 
-   </section>
+
+
+
+
+  </div>
+</div>
+<div class="card bg-light mb-3" >
+  <div class="card-header">Interventions
+</div>
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  <div class="button-area">
+<a class="btn btn-primary" href="#" role="button">Animia >></a>
+      <a class="btn btn-primary" href="#" role="button">Family Planing</a>
+<a class="btn btn-primary" href="#" role="button">Dibetic risk</a>
+      <a class="btn btn-primary" href="#" role="button">Diet </a>
+<a class="btn btn-primary" href="#" role="button">Hypertension</a>
+<a class="btn btn-primary" href="#" role="button">Ca cunsumption</a>
+      <a class="btn btn-primary" href="#" role="button">Use of MCP card</a>
+<a class="btn btn-primary" href="#" role="button">At List 4ANC visits</a>
+      <a class="btn btn-primary" href="#" role="button">IFA Cunsumption</a>
+      <a class="btn btn-primary" href="#" role="button">IF SuplimentsA</a>
+
+   </div>
+  </div>
+</div>
+<div class="card bg-light mb-3" >
+  <div class="card-header">Immediate and Underlying Determinants
+</div>
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  <div class="button-area">
+<a style="margin-right: 30px" class="btn btn-primary" href="#" role="button">Animia >></a>
+      <a class="btn btn-primary" href="#" role="button">Family Planing</a>
+<a class="btn btn-primary" href="#" role="button">Dibetic risk</a>
+      <a class="btn btn-primary" href="#" role="button">Diet </a>
+<a class="btn btn-primary" href="#" role="button">Hypertension</a>
+<a class="btn btn-primary" href="#" role="button">Ca cunsumption</a>
+      <a class="btn btn-primary" href="#" role="button">Use of MCP card</a>
+<a class="btn btn-primary" href="#" role="button">At List 4ANC visits</a>
+      <a class="btn btn-primary" href="#" role="button">IFA Cunsumption</a>
+      <a class="btn btn-primary" href="#" role="button">IF SuplimentsA</a>
+
+   </div>
+  </div>
+</div>
+            </div>
+
+    </section>
+        </div>
          </section><!-- End Why Us Section -->
         ><!-- End About Section -->
 
@@ -868,7 +935,6 @@
 
   <!-- Template Main JS File -->
   <script src="{% static 'assets/js/main.js' %}"></script>
-
 </body>
 
 </html>
