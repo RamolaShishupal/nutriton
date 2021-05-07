@@ -2,10 +2,13 @@
 <html lang="en">
 {% load static%}
 <head>
+    <style>
+
+    </style>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Flexor Bootstrap Template - Index</title>
+  <title>Nutrition India</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -79,49 +82,66 @@ html {
              <img src="{% static 'images/pa.png' %}" width="110" height="80" >
          </div>
 </div>
-     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="background-color: antiquewhite;" >
+
+     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
   </ol>
-  <div class="carousel-inner" style="height: 600px">
+  <div class="carousel-inner">
     <div class="carousel-item active">
-             <img  class="rounded-circle"  src="{% static 'images/motherwithbaby-2.jpg' %}" alt="First slide"  data-holder-rendered="true">
-        <div class="carousel-caption d-none d-md-block" >
-    <h5><p class="text-justify">All Nutrition Information across the Lifecycle</p></h5>
+        <div class="card bg-transparent text-white">
+                  <img  class="rounded-circle"  src="{% static 'images/motherwithbaby-2.jpg' %}" alt="First slide"  data-holder-rendered="true">
+  <div class="card-img-overlay">
+                 <img src="{% static 'images/nutrition_banner.png' %} " width="250" height="950" style="atsc-nav-down:50px">
 
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-text">Last updated 3 mins ago</p>
   </div>
+</div>
     </div>
     <div class="carousel-item">
+        <div class="card bg-transparent text-white">
       <img  class="rounded-circle"src="{% static 'images/fatherwithbaby-3.jpg' %}" alt="Second slide">
-        <div class="carousel-caption d-none d-md-block">
-        <h5><p class="text-justify">All Nutrition Information across the Lifecycle</p></h5>
-
+  <div class="card-img-overlay">
+             <img src="{% static 'images/nutrition_banner.png' %} " width="250" height="950" style="atsc-nav-down:50px">
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-text">Last updated 3 mins ago</p>
   </div>
+</div>
     </div>
     <div class="carousel-item">
+        <div class="card bg-transparent text-white">
       <img  class="rounded-circle"src="{% static 'images/childrenwithteacher-4.jpg' %}" alt="Third slide">
-        <div class="carousel-caption d-none d-md-block">
-        <h5><p class="text-justify">All Nutrition Information across the Lifecycle</p></h5>
-
+  <div class="card-img-overlay">
+             <img src="{% static 'images/nutrition_banner.png' %} " width="250" height="950" style="atsc-nav-down:50px">
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-text">Last updated 3 mins ago</p>
   </div>
+</div>
     </div>
-      <div class="carousel-item">
+       <div class="carousel-item">
+           <div class="card bg-transparent text-white">
       <img  class="rounded-circle" src="{% static 'images/group_study-5.jpg' %}" alt="Third slide">
-        <div class="carousel-caption d-none d-md-block">
-        <h5><p class="text-justify">All Nutrition Information across the Lifecycle</p></h5>
-
+  <div class="card-img-overlay">
+             <img src="{% static 'images/nutrition_banner.png' %} " width="250" height="950" style="atsc-nav-down:50px">
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-text">Last updated 3 mins ago</p>
   </div>
+</div>
     </div>
       <div class="carousel-item">
+          <div class="card bg-transparent text-white">
       <img  class="rounded-circle" src="{% static 'images/mothersfeeding-1.jpg' %}" alt="Third slide">
-        <div class="carousel-caption d-none d-md-block">
-    <h5><p class="text-justify">All Nutrition Information across the Lifecycle</p></h5>
-
+  <div class="card-img-overlay">
+             <img src="{% static 'images/nutrition_banner.png' %} " width="250" height="950" style="atsc-nav-down:50px">
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-text">Last updated 3 mins ago</p>
   </div>
-    </div>
+</div>
 
+    </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -132,6 +152,9 @@ html {
     <span class="sr-only">Next</span>
   </a>
 </div>
+
+
+
  </section>
 
 
@@ -167,6 +190,8 @@ html {
     </div>
   </header><!-- End Header -->
   <main id="main">
+
+
 
 
 
@@ -285,6 +310,9 @@ html {
 
 </div>
 
+
+
+      <section>
 <div  id="section2" style="background-color: wheat">
      <h3 style="padding-left: 25px;">Delivery/PNC</h3>
       <div class="card bg-transparent text-center">
@@ -301,9 +329,9 @@ html {
 </div>
 
 </div>
+</section>
 
-
-
+<section>
 <div  id="section3" style="background-color: wheat">
      <h3 style="padding-left: 25px;">Early Childhood</h3>
      <div class="card bg-transparent text-center">
@@ -319,7 +347,9 @@ html {
 </div>
 
 </div>
+</section>
 
+      <section>
 <div  id="section4" style="background-color: wheat">
      <h3 style="padding-left: 25px;">Preconception</h3>
      <div class="card bg-transparent text-center">
@@ -335,7 +365,8 @@ html {
 </div>
 
 </div>
-
+</section>
+      <section>
 <div  id="section5" style="background-color: wheat">
     <h3 style="padding-left: 25px;">Pregnancy</h3>
      <div class="card bg-transparent text-center">
@@ -351,7 +382,8 @@ html {
 </div>
 
 </div>
-
+</section>
+      <section>
 <div  id="section6" style="background-color: wheat" >
      <h3 style="padding-left: 25px;">School age</h3>
      <div class="card bg-transparent text-center">
@@ -370,23 +402,36 @@ html {
 
 
 
+    </section><!-- End Contact Section -->
+
+      </div>
+
+  </main>
 
 
-      <footer id="footer" style="background-color: beige">
+      <footer id="footer" >
 
-    <div class="footer-top">
+    <div style="background-color: #16181b" class="footer-top">
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Nutrition India</h3>
-            <p>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
-            </p>
+          <div class="col-lg-4 col-md-3 footer-contact">
+                <div class="d-flex justify-content-around">
+           <div class="p-3">
+             <img src="{% static 'images/nutrition_banner.png' %} " width="250" height="950" style="atsc-nav-down:50px">
+            </div>
+                    <div class="p-3" >
+                          <img src="{% static 'images/unicef.png' %} " width="150" height="950" style="atsc-nav-down:50px">
+                    </div>
+         <div class="ml-auto p-2">
+             <img src="{% static 'images/unicef1.png' %}" width="110" height="80" >
+         </div>
+         </div>
           </div>
         </div>
       </div>
+
+
     </div>
 
 
@@ -407,7 +452,7 @@ html {
 
   <!-- Template Main JS File -->
   <script src="{% static 'assets/js/main.js' %}"></script>
-  </main>
+
 </body>
 
 </html>
