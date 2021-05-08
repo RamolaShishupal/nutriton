@@ -1,44 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-{% load static%}
+{% load static %}
 <head>
-    <style>
- #back2Top {
-    width: 60px;
-    line-height: 40px;
-    overflow: hidden;
-    z-index: 999;
-    display: none;
-    cursor: pointer;
-    -moz-transform: rotate(270deg);
-    -webkit-transform: rotate(270deg);
-    -o-transform: rotate(270deg);
-    -ms-transform: rotate(270deg);
-    transform: rotate(270deg);
-    position: fixed;
-    bottom: 50px;
-    right: 0;
-    background-color: transparent;
-    color:black;
-    text-align: center;
-    font-size: 30px;
-    text-decoration: none;
-}
-#back2Top:hover {
-    background-color: lightsalmon;
-    color: #000;
-}
-
-    </style>
+      <title>Nutrition India</title>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Nutrition India</title>
+  <title>Flexor Bootstrap Template - Index</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-    <link href="{% static 'assets/img/favicon.png' %}" rel="icon">
+
+
+  <!-- Google Fonts -->
+   <!-- Favicons -->
+  <link href="{% static 'assets/img/favicon.png' %}" rel="icon">
   <link href="{% static 'assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -61,113 +38,100 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-    <style>
-
-html {
-  scroll-behavior:smooth;
-}
-
-#section1 {
-  height: 800px;
-  {#background-color: #dc8415;#}
-}
-
-#section2 {
-  height: 800px;
-  {#background-color: #2fd078;#}
-}
-#section3 {
-  height: 800px;
-  {#background-color: #dc8415;#}
-}
-
-#section4 {
-  height: 800px;
-  {#background-color: #dc8415;#}
-}#section5 {
-  height: 800px;
-  {#background-color: #dc8415;#}
-}
- #section6 {
-  height: 800px;
-  {#background-color: #dc8415;#}
-}
-
-</style>
 </head>
 
 <body>
 
   <!-- ======= Top Bar ======= -->
- <section id="topbar" class="d-none d-lg-block">
-     <div  class="d-flex align-items-stretch">
-         <div class="p-2" >
-             <img src="{% static 'images/mhf.png' %} " width="250" height="950" style="atsc-nav-down:50px">
-</div>
-         <div class="ml-auto p-2">
-             <img src="{% static 'images/pa.png' %}" width="110" height="80" >
-         </div>
-</div>
+  <section id="topbar" class="d-none d-lg-block" style="background-color: white;">
 
-     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+        <div  class="d-flex align-items" >
+
+            <div class="p-2" > <img src="{% static 'images/mhf.png' %} " width="278" height="71" style="atsc-nav-down:50px">
+             </div>
+
+              <div class="ml-auto p-2"> <img src="{% static 'images/pa.png' %}" width="110" height="80" ></div>
+               </div>
+         </div>
+
+
+  </section>
+
+  <!-- ======= Header ======= -->
+
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
   </ol>
-  <div class="carousel-inner">
+    <div class="carousel-inner" style="background-color: transparent">
     <div class="carousel-item active">
-        <div class="card bg-transparent text-white">
-                  <img  class="rounded-circle"  src="{% static 'images/motherwithbaby-2.jpg' %}" alt="First slide"  data-holder-rendered="true">
+<div class="card bg-light text-white">
+  <img class="" src="{% static 'images/group_study-5.jpg' %}" alt="Card image">
   <div class="card-img-overlay">
-                 <img src="{% static 'images/nutrition_banner.png' %} " width="250" height="950" style="atsc-nav-down:50px">
 
+      <img src="{% static 'images/nutrition_banner.png' %} " width="250" height="70" style="atsc-nav-down:50px">
+
+    <h5 class="card-title">Card title</h5>
     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
     <p class="card-text">Last updated 3 mins ago</p>
   </div>
 </div>
     </div>
     <div class="carousel-item">
-        <div class="card bg-transparent text-white">
-      <img  class="rounded-circle"src="{% static 'images/fatherwithbaby-3.jpg' %}" alt="Second slide">
+<div class="card bg-light text-white">
+  <img class="bx-radio-circle-marked" src="{% static 'images/mothersfeeding-1.jpg' %}"alt="Card image">
   <div class="card-img-overlay">
-             <img src="{% static 'images/nutrition_banner.png' %} " width="250" height="950" style="atsc-nav-down:50px">
+            <img src="{% static 'images/nutrition_banner.png' %} " width="250" height="70" style="atsc-nav-down:50px">
+
+    <h5 class="card-title">Card title</h5>
     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
     <p class="card-text">Last updated 3 mins ago</p>
   </div>
 </div>
     </div>
-    <div class="carousel-item">
-        <div class="card bg-transparent text-white">
-      <img  class="rounded-circle"src="{% static 'images/childrenwithteacher-4.jpg' %}" alt="Third slide">
-  <div class="card-img-overlay">
-             <img src="{% static 'images/nutrition_banner.png' %} " width="250" height="950" style="atsc-nav-down:50px">
-    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    <p class="card-text">Last updated 3 mins ago</p>
-  </div>
-</div>
-    </div>
+
        <div class="carousel-item">
-           <div class="card bg-transparent text-white">
-      <img  class="rounded-circle" src="{% static 'images/group_study-5.jpg' %}" alt="Third slide">
+<div class="card bg-dark text-white">
+  <img class="card-img" src="{% static 'images/motherwithbaby-2.jpg' %}" alt="Card image">
   <div class="card-img-overlay">
-             <img src="{% static 'images/nutrition_banner.png' %} " width="250" height="950" style="atsc-nav-down:50px">
-    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    <p class="card-text">Last updated 3 mins ago</p>
-  </div>
-</div>
-    </div>
-      <div class="carousel-item">
-          <div class="card bg-transparent text-white">
-      <img  class="rounded-circle" src="{% static 'images/mothersfeeding-1.jpg' %}" alt="Third slide">
-  <div class="card-img-overlay">
-             <img src="{% static 'images/nutrition_banner.png' %} " width="250" height="950" style="atsc-nav-down:50px">
-    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    <p class="card-text">Last updated 3 mins ago</p>
-  </div>
-</div>
+            <img src="{% static 'images/nutrition_banner.png' %} " width="250" height="70" style="atsc-nav-down:50px">
 
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-text">Last updated 3 mins ago</p>
+  </div>
+</div>
+    </div> <div class="carousel-item">
+<div class="card bg-dark text-white">
+  <img class="card-img"src="{% static 'images/fatherwithbaby-3.jpg' %}"alt="Card image">
+  <div class="card-img-overlay">
+            <img src="{% static 'images/nutrition_banner.png' %} " width="250" height="70" style="atsc-nav-down:50px">
+
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-text">Last updated 3 mins ago</p>
+  </div>
+</div>
+    </div> <div class="carousel-item">
+<div class="card bg-dark text-white">
+  <img class="card-img" src="{% static 'images/childrenwithteacher-4.jpg' %}" alt="Card image">
+  <div class="card-img-overlay">
+            <img src="{% static 'images/nutrition_banner.png' %} " width="250" height="70" style="atsc-nav-down:50px">
+
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-text">Last updated 3 mins ago</p>
+  </div>
+</div>
     </div>
+
+
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -178,15 +142,8 @@ html {
     <span class="sr-only">Next</span>
   </a>
 </div>
-
-
-
- </section>
-
-
-  <!-- ======= Header ======= -->
-  <header id="header"  style="background-color:rgba(239,178,64,0.87); height:120px " >
-    <div  class="container d-flex" style="height: 600px">
+ <header id="header"  style="background-color:rgba(239,178,64,0.87); height:120px " >
+    <div  class="container d-flex">
 
       <div class="logo mr-auto">
         <h1 ><a  href="#header"><span style="color: black">LifeCycles</span></a></h1>
@@ -194,35 +151,40 @@ html {
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
 
-      <nav class="nav-menu d-none d-lg-block" style="height: 600px;">
+      <nav class="nav-menu d-none d-lg-block" >
         <ul style="text-decoration-color: black">
 {#          <li class="active"><a style="color: black" href="#header">Home</a></li>#}
 
-          <li><img width="80" height="180" class="rounded-circle" src="{% static 'icon/adolescence.png' %}">
-              <a style="color: black; "href="#section1">Adolescence</a></li>
+          <li><img width="100" height="100" class="rounded-circle" src="{% static 'icon/adolescence.png' %}">
+              <a style="color: black; "href="#about">Adolescence</a></li>
           <li>
-              <img width="80" height="180" class="rounded-circle" src="{% static 'icon/delivery_PNC.png' %}"><a style="color: black"href="#section2">Delivery/PNC</a></li>
+              <img width="100" height="100" class="rounded-circle" src="{% static 'icon/delivery_PNC.png' %}"><a style="color: black"href="#services">Delivery/PNC</a></li>
           <li>
-              <img width="80" height="180" class="rounded-circle" src="{% static 'icon/early_childhood.png' %}"><a style="color: black"href="#section3">Early Childhood</a></li>
+              <img width="100" height="100" class="rounded-circle" src="{% static 'icon/early_childhood.png' %}"><a style="color: black"href="#portfolio">Early Childhood</a></li>
           <li>
-              <img width="80" height="180" class="rounded-circle" src="{% static 'icon/preconception.png' %}"><a style="color: black" href="#section4">Preconception</a></li>
+              <img width="100" height="100" class="rounded-circle" src="{% static 'icon/preconception.png' %}"><a style="color: black" href="#team">Preconception</a></li>
           <li>
-              <img width="80" height="180" class="rounded-circle" src="{% static 'icon/pregnancy.png' %}"><a style="color: black"href="#section5">Pregnancy</a></li>
+              <img width="100" height="100" class="rounded-circle" src="{% static 'icon/pregnancy.png' %}"><a style="color: black"href="#pricing">Pregnancy</a></li>
             <li>
-                <img width="80" height="180" class="rounded-circle" src="{% static 'icon/school_age.png' %}"><a style="color: black"href="#section6">School age</a></li>
-        </ul>
+                <img width="100" height="100" class="rounded-circle" src="{% static 'icon/school_age.png' %}"><a style="color: black"href="#contact">School age</a></li>
+
         </ul>
       </nav><!-- .nav-menu -->
+
     </div>
   </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+
+
   <main id="main">
 
+    <!-- ======= Why Us Section ======= -->
 
 
-
-
-<div  id="section1" style="background-color: wheat">
-    <h3 style="padding-left: 25px;">Adolescence</h3>
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about section-bg">
+      <h3 style="padding-left: 25px;">Adolescence</h3>
     <div class="card bg-transparent text-center">
         <img style="padding-top: 25px; padding-left: 25px" width="200" height="300" class="rounded-circle" src="{% static 'icon/adolescence.png' %}">
 
@@ -336,13 +298,16 @@ html {
 
 </div>
 
+    </section><!-- End About Section -->
+
+    <!-- ======= Clients Section ======= -->
 
 
-      <section>
-<div  id="section2" style="background-color: wheat">
-     <h3 style="padding-left: 25px;">Delivery/PNC</h3>
-      <div class="card bg-transparent text-center">
-    <img style="padding-top: 50px; padding-left: 25px" width="200" height="300" class="rounded-circle" src="{% static 'icon/delivery_PNC.png' %}">
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+       <h3 style="padding-left: 25px;">Adolescence</h3>
+    <div class="card bg-transparent text-center">
+        <img style="padding-top: 25px; padding-left: 25px" width="200" height="300" class="rounded-circle" src="{% static 'icon/adolescence.png' %}">
 
   <div class="card-img-overlay">
     <h5 class="card-title">Card title</h5>
@@ -353,124 +318,614 @@ html {
     <p class="card-text">Last updated 3 mins ago</p>
   </div>
 </div>
+{#    card start#}
 
-</div>
-</section>
-
-<section>
-<div  id="section3" style="background-color: wheat">
-     <h3 style="padding-left: 25px;">Early Childhood</h3>
-     <div class="card bg-transparent text-center">
-         <img style="padding-top: 50px; padding-left: 25px" width="200" height="300" class="rounded-circle" src="{% static 'icon/early_childhood.png' %}">
-<div class="card-img-overlay">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">
-      This is a wider card with supporting text below as a natural lead-in to additional
-      content. This content is a little bit longer.
-    </p>
-    <p class="card-text">Last updated 3 mins ago</p>
-  </div>
-</div>
-
-</div>
-</section>
-
-      <section>
-<div  id="section4" style="background-color: wheat">
-     <h3 style="padding-left: 25px;">Preconception</h3>
-     <div class="card bg-transparent text-center">
-     <img style="padding-top: 50px; padding-left: 25px" width="200" height="300" class="rounded-circle" src="{% static 'icon/preconception.png' %}">
-<div class="card-img-overlay">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">
-      This is a wider card with supporting text below as a natural lead-in to additional
-      content. This content is a little bit longer.
-    </p>
-    <p class="card-text">Last updated 3 mins ago</p>
-  </div>
-</div>
-
-</div>
-</section>
-      <section>
-<div  id="section5" style="background-color: wheat">
-    <h3 style="padding-left: 25px;">Pregnancy</h3>
-     <div class="card bg-transparent text-center">
-     <img style="padding-top: 50px; padding-left: 25px" width="200" height="300" class="rounded-circle" src="{% static 'icon/pregnancy.png' %}">
-<div class="card-img-overlay">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">
-      This is a wider card with supporting text below as a natural lead-in to additional
-      content. This content is a little bit longer.
-    </p>
-    <p class="card-text">Last updated 3 mins ago</p>
-  </div>
-</div>
-
-</div>
-</section>
-      <section>
-<div  id="section6" style="background-color: wheat" >
-     <h3 style="padding-left: 25px;">School age</h3>
-     <div class="card bg-transparent text-center">
-     <img style="padding-top: 50px; padding-left: 25px" width="200" height="300" class="rounded-circle" src="{% static 'icon/school_age.png' %}">
-<div class="card-img-overlay">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">
-      This is a wider card with supporting text below as a natural lead-in to additional
-      content. This content is a little bit longer.
-    </p>
-    <p class="card-text">Last updated 3 mins ago</p>
-  </div>
-</div>
-
-</div>
-
-
-
-    </section><!-- End Contact Section -->
-
-      </div>
-
-     <a id="back2Top" title="Back to top" href="#">&#10148;</a>
-
-</a>
-
-  </main>
-
-
-      <footer id="footer" >
-
-    <div style="background-color: #16181b" class="footer-top">
-      <div class="container">
+    <div class="d-flex justify-content-around">
+        <div class="card-deck">
         <div class="row">
 
-          <div class="col-lg-4 col-md-3 footer-contact">
-                <div class="d-flex justify-content-around">
-           <div class="p-3">
-             <img src="{% static 'images/nutrition_banner.png' %} " width="250" height="950" style="atsc-nav-down:50px">
-            </div>
-                    <div class="p-3" >
-                          <img src="{% static 'images/unicef.png' %} " width="150" height="950" style="atsc-nav-down:50px">
-                    </div>
-         <div class="ml-auto p-2">
-             <img src="{% static 'images/unicef1.png' %}" width="110" height="80" >
-         </div>
-         </div>
+{#      first card      #}
+  <div class="cols-xl-6" style="max-width: 25rem">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <div style="padding:initial;" class="d-flex justify-content-around">
+          <div class="col-sm-3"  >
+          <a href="#" class="btn btn-primary btn-sm">somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+              </div>
+
+         <div class="col-sm-3">
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+             </div>
+
           </div>
-        </div>
-      </div>
-
-
     </div>
 
 
 
-  </footer><!-- End Footer -->
+  </div>
+  </div>
 
+{#            second card#}
+  <div class="cols-xl-6" style="max-width: 25rem">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+         <div style="padding:initial;" class="d-flex justify-content-around">
+          <div class="col-sm-3" >
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+              </div>
+
+         <div class="col-sm-3">
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+             </div>
+
+          </div>
+      </div>
+    </div>
+  </div>
+
+{#        3rd card#}
+        <div class="cols-xl-6" style="max-width: 25rem;">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <div style="padding:initial;" class="d-flex justify-content-around">
+          <div class="col-sm-3" >
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+              </div>
+
+         <div class="col-sm-3">
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+             </div>
+
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+</div>
+
+</div>
+
+</div>
+
+    </section><!-- End Services Section -->
+
+    <!-- ======= Values Section ======= -->
+
+
+    <!-- ======= Testimonials Section ======= -->
+
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+       <h3 style="padding-left: 25px;">Adolescence</h3>
+    <div class="card bg-transparent text-center">
+        <img style="padding-top: 25px; padding-left: 25px" width="200" height="300" class="rounded-circle" src="{% static 'icon/adolescence.png' %}">
+
+  <div class="card-img-overlay">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">
+      This is a wider card with supporting text below as a natural lead-in to additional
+      content. This content is a little bit longer.
+    </p>
+    <p class="card-text">Last updated 3 mins ago</p>
+  </div>
+</div>
+{#    card start#}
+
+    <div class="d-flex justify-content-around">
+        <div class="card-deck">
+        <div class="row">
+
+{#      first card      #}
+  <div class="cols-xl-6" style="max-width: 25rem">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <div style="padding:initial;" class="d-flex justify-content-around">
+          <div class="col-sm-3"  >
+          <a href="#" class="btn btn-primary btn-sm">somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+              </div>
+
+         <div class="col-sm-3">
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+             </div>
+
+          </div>
+    </div>
+
+
+
+  </div>
+  </div>
+
+{#            second card#}
+  <div class="cols-xl-6" style="max-width: 25rem">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+         <div style="padding:initial;" class="d-flex justify-content-around">
+          <div class="col-sm-3" >
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+              </div>
+
+         <div class="col-sm-3">
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+             </div>
+
+          </div>
+      </div>
+    </div>
+  </div>
+
+{#        3rd card#}
+        <div class="cols-xl-6" style="max-width: 25rem;">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <div style="padding:initial;" class="d-flex justify-content-around">
+          <div class="col-sm-3" >
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+              </div>
+
+         <div class="col-sm-3">
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+             </div>
+
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+</div>
+
+</div>
+
+</div>
+
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team section-bg">
+  <h3 style="padding-left: 25px;">Adolescence</h3>
+    <div class="card bg-transparent text-center">
+        <img style="padding-top: 25px; padding-left: 25px" width="200" height="300" class="rounded-circle" src="{% static 'icon/adolescence.png' %}">
+
+  <div class="card-img-overlay">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">
+      This is a wider card with supporting text below as a natural lead-in to additional
+      content. This content is a little bit longer.
+    </p>
+    <p class="card-text">Last updated 3 mins ago</p>
+  </div>
+</div>
+{#    card start#}
+
+    <div class="d-flex justify-content-around">
+        <div class="card-deck">
+        <div class="row">
+
+{#      first card      #}
+  <div class="cols-xl-6" style="max-width: 25rem">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <div style="padding:initial;" class="d-flex justify-content-around">
+          <div class="col-sm-3"  >
+          <a href="#" class="btn btn-primary btn-sm">somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+              </div>
+
+         <div class="col-sm-3">
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+             </div>
+
+          </div>
+    </div>
+
+
+
+  </div>
+  </div>
+
+{#            second card#}
+  <div class="cols-xl-6" style="max-width: 25rem">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+         <div style="padding:initial;" class="d-flex justify-content-around">
+          <div class="col-sm-3" >
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+              </div>
+
+         <div class="col-sm-3">
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+             </div>
+
+          </div>
+      </div>
+    </div>
+  </div>
+
+{#        3rd card#}
+        <div class="cols-xl-6" style="max-width: 25rem;">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <div style="padding:initial;" class="d-flex justify-content-around">
+          <div class="col-sm-3" >
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+              </div>
+
+         <div class="col-sm-3">
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+             </div>
+
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+</div>
+
+</div>
+
+</div>
+
+    </section><!-- End Team Section -->
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing">
+       <h3 style="padding-left: 25px;">Adolescence</h3>
+    <div class="card bg-transparent text-center">
+        <img style="padding-top: 25px; padding-left: 25px" width="200" height="300" class="rounded-circle" src="{% static 'icon/adolescence.png' %}">
+
+  <div class="card-img-overlay">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">
+      This is a wider card with supporting text below as a natural lead-in to additional
+      content. This content is a little bit longer.
+    </p>
+    <p class="card-text">Last updated 3 mins ago</p>
+  </div>
+</div>
+{#    card start#}
+
+    <div class="d-flex justify-content-around">
+        <div class="card-deck">
+        <div class="row">
+
+{#      first card      #}
+  <div class="cols-xl-6" style="max-width: 25rem">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <div style="padding:initial;" class="d-flex justify-content-around">
+          <div class="col-sm-3"  >
+          <a href="#" class="btn btn-primary btn-sm">somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+              </div>
+
+         <div class="col-sm-3">
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+             </div>
+
+          </div>
+    </div>
+
+
+
+  </div>
+  </div>
+
+{#            second card#}
+  <div class="cols-xl-6" style="max-width: 25rem">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+         <div style="padding:initial;" class="d-flex justify-content-around">
+          <div class="col-sm-3" >
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+              </div>
+
+         <div class="col-sm-3">
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+             </div>
+
+          </div>
+      </div>
+    </div>
+  </div>
+
+{#        3rd card#}
+        <div class="cols-xl-6" style="max-width: 25rem;">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <div style="padding:initial;" class="d-flex justify-content-around">
+          <div class="col-sm-3" >
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+              </div>
+
+         <div class="col-sm-3">
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+             </div>
+
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+</div>
+
+</div>
+
+</div>
+
+    </section><!-- End Pricing Section -->
+
+    <!-- ======= F.A.Q Section ======= -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+       <h3 style="padding-left: 25px;">Adolescence</h3>
+    <div class="card bg-transparent text-center">
+        <img style="padding-top: 25px; padding-left: 25px" width="200" height="300" class="rounded-circle" src="{% static 'icon/adolescence.png' %}">
+
+  <div class="card-img-overlay">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">
+      This is a wider card with supporting text below as a natural lead-in to additional
+      content. This content is a little bit longer.
+    </p>
+    <p class="card-text">Last updated 3 mins ago</p>
+  </div>
+</div>
+{#    card start#}
+
+    <div class="d-flex justify-content-around">
+        <div class="card-deck">
+        <div class="row">
+
+{#      first card      #}
+  <div class="cols-xl-6" style="max-width: 25rem">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <div style="padding:initial;" class="d-flex justify-content-around">
+          <div class="col-sm-3"  >
+          <a href="#" class="btn btn-primary btn-sm">somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+              </div>
+
+         <div class="col-sm-3">
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+             </div>
+
+          </div>
+    </div>
+
+
+
+  </div>
+  </div>
+
+{#            second card#}
+  <div class="cols-xl-6" style="max-width: 25rem">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+         <div style="padding:initial;" class="d-flex justify-content-around">
+          <div class="col-sm-3" >
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+              </div>
+
+         <div class="col-sm-3">
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+             </div>
+
+          </div>
+      </div>
+    </div>
+  </div>
+
+{#        3rd card#}
+        <div class="cols-xl-6" style="max-width: 25rem;">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <div style="padding:initial;" class="d-flex justify-content-around">
+          <div class="col-sm-3" >
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+              </div>
+
+         <div class="col-sm-3">
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+          <a href="#" class="btn btn-primary btn-sm">Go somewhere</a>
+             </div>
+
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+</div>
+
+</div>
+
+</div>
+
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+  <div class="footer-contact">
+    <div class="d-flex justify-content-around" style="background-color: black">
+
+  <div class="p-2" >  <img src="{% static 'images/nutrition_banner.png' %} " width="102" height="12" style="atsc-nav-down:50px">
+            </div>
+                    <div class="p-2" >
+                          <img src="{% static 'images/unicef.png' %} " width="100" height="20" style="atsc-nav-down:50px">
+                    </div>
+         <div class="ml-auto p-2">
+             <img src="{% static 'images/unicef1.png' %}" width="108" height="30" >
+         </div>
+         </div>
+
+  </div><!-- End Footer -->
+  </div>
+  </footer>
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
   <!-- Vendor JS Files -->
- <script src="{% static 'assets/vendor/jquery/jquery.min.js' %}"></script>
+<!-- Vendor JS Files -->
+  <script src="{% static 'assets/vendor/jquery/jquery.min.js' %}"></script>
   <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
   <script src="{% static 'assets/vendor/jquery.easing/jquery.easing.min.js' %}"></script>
   <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
@@ -482,24 +937,6 @@ html {
 
   <!-- Template Main JS File -->
   <script src="{% static 'assets/js/main.js' %}"></script>
-<script>
-    $(window).scroll(function() {
-    var height = $(window).scrollTop();
-    if (height > 100) {
-        $('#back2Top').fadeIn();
-    } else {
-        $('#back2Top').fadeOut();
-    }
-});
-$(document).ready(function() {
-    $("#back2Top").click(function(event) {
-        event.preventDefault();
-        $("html, body").animate({ scrollTop: 0 }, "slow");
-        return false;
-    });
-
-});
-</script>
 
 </body>
 
